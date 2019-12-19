@@ -1,13 +1,7 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
+﻿using UnityEngine;
 
 public class TestGrpc : MonoBehaviour
 {
-    //Grpc.Core.Channel channel;
-    void Start()
-    {        
-
-    }
+    Grpc.Core.Channel channel;
+    void Start() { }
 }
